@@ -9,8 +9,14 @@ elif time in range(14, 18):
 elif time in range(18, 23):  
     hour = 'night'  
 else:    
-    hour = 'Invalid time'  
+    hour = 'Invalid time' 
 
 print(f"Oh so, it's {hour}, good {hour}")  
+
+if SyntaxError:
+    print("I'm sorry, that's is an invalid time")
+
+
+
 
 
